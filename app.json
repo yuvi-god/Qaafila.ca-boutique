@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "Qaafila Boutique",
+    "slug": "qaafila-boutique",
+    "version": "1.0.0",
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTabletMode": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow Qaafila Boutique to access your camera"
+        }
+      ],
+      [
+        "expo-barcode-scanner",
+        {
+          "cameraPermission": "Allow Qaafila Boutique to access camera for QR scanning"
+        }
+      ]
+    ]
+  }
+}
