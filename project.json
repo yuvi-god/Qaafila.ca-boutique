@@ -1,0 +1,16 @@
+{
+  "version": "0.72.0",
+  "project_name": "Qaafila Boutique",
+  "bundle_identifier": "com.qaafila.boutique",
+  "version_code": 1,
+  "description": "Fast online shopping app with QR scanning",
+  "author": "Qaafila Team",
+  "license": "MIT",
+  "repository": "https://github.com/yuvi-god/Qaafila.ca-boutique",
+  "performance_optimizations": {
+    "image_caching": "enabled",
+    "lazy_loading": "enabled",
+    "code_splitting": "enabled",
+    "bundle_optimization": "enabled"
+  }
+}
